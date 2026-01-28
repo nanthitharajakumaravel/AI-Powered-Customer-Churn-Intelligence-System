@@ -58,14 +58,14 @@ print("Dataset Shape:", df.shape)
 
 
 # -----------------------------
-# Define target & features
+# Define target and features
 # -----------------------------
 y = df['Churn Value']
 X = df.drop(columns=['Churn Value', 'Churn Label', 'Churn Score', 'CLTV'])
 
 
 # -----------------------------
-# Data Cleaning & Encoding
+# Data Cleaning and Encoding
 # -----------------------------
 X.columns = X.columns.str.strip()
 
