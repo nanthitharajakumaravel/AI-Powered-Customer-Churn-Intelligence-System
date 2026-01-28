@@ -1,25 +1,8 @@
 # AI-Powered-Customer-Churn-Intelligence-System
 Project Overview : This project implements an end-to-end Machine Learning pipeline to predict customer churn for a telecom company using Logistic regression, Random forest, Gradient boosting and XGBoosting models
 
-## Project Structure
-
-AI-Powered-Customer-Churn-Intelligence-System/
-│
-├── data/
-│   └── Telco_customer_churn.xlsx
-│
-├── src/
-│   ├── logistic_regression.py
-│   ├── random_forest.py
-│   ├── gradient_boosting.py
-│   └── xgboost_model.py
-│
-├── requirements.txt
-└── README.md
-
-
 ## Models Implemented
-- Logistic Regression (Baseline + Interpretability)
+- Logistic Regression 
 - Random Forest Classifier
 - Gradient Boosting Classifier
 - XGBoost Classifier
